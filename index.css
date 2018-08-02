@@ -1,7 +1,20 @@
-/*body {
+body {
     background-color: lightcoral;
 }
 
-#header-img {
 
-}*/
+#nav-bar {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    width: 100%; 
+}
+
+
+
+
+@media screen and (min-width: 750px) {
+    body {
+        background-color: tomato;
+    }
+}
