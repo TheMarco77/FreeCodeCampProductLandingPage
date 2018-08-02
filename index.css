@@ -1,7 +1,13 @@
 body {
-    background-color: lightcoral;
+    background-color: tomato;
 }
+img {
+    width: 30%;
+    height: 30%;
+    align-items: center;
 
+    
+}
 
 #nav-bar {
     position: fixed;
@@ -11,10 +17,8 @@ body {
 }
 
 
-
-
 @media screen and (min-width: 750px) {
     body {
-        background-color: tomato;
+        background-color: goldenrod;
     }
 }
