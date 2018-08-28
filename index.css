@@ -1,10 +1,12 @@
 body {
     background-color: #F8F8FF;
     font-family: 'Modern Antiqua', cursive;
-    min-height: 100%;
-    /*display: grid;
+    margin: 0px;
+}
+
+.wrapper {
+    display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr;*/
 }
 
 header {
@@ -26,8 +28,8 @@ header {
 }
 
 #video {
-    position: relative;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 #about {
@@ -47,12 +49,17 @@ header {
 
 #video {
     position: static;
+    width: 100%;
 }
 
 #product-img {
     width: 100%;
-    height:20%;
+    height: 100%;
     align-items: center;
+}
+
+#form {
+    padding-bottom: 0%;
 }
 
 @media only screen and (max-width: 600px) {
