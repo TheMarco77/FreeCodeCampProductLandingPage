@@ -1,12 +1,13 @@
 body {
     background-color: #F8F8FF;
     font-family: 'Modern Antiqua', cursive;
-    margin: 0px;
+    padding: 0 auto;
 }
 
 .wrapper {
     display: grid;
     grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
 }
 
 header {
@@ -27,9 +28,9 @@ header {
     width: 100%;
 }
 
-#video {
+#video iframe {
     max-width: 100%;
-    height: auto;
+    height: 315px;
 }
 
 #about {
