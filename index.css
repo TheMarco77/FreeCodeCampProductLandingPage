@@ -67,8 +67,13 @@ iframe {
     padding-bottom: 0%;
 }
 
+/* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style tag> 
+and place the media query inside of the HTML file.*/
+
+/*
 @media only screen and (max-width: 600px) {
     body {
         background-color: #F8F8FF;
     }
 }
+*/
