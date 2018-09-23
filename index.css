@@ -20,6 +20,10 @@ body {
     height: 100%;
 }
 
+/* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style element> 
+and place the #nav-bar including flexbox inside of the HTML file for the suite to pass this rule*/
+
+/*
 #nav-bar {
     position: fixed;
     display: flex;
@@ -27,6 +31,7 @@ body {
     top: 0px;
     width: 100%;
 }
+*/
 
 #about {
     background-color: green;
