@@ -6,18 +6,20 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
 }
 
 #header {
-    width: 100%;
-    height: 100%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
 }
 
 #header-img {
-    width: 100%;
-    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
 }
 
 /* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style element> 
@@ -52,7 +54,7 @@ and place the #nav-bar including flexbox inside of the HTML file for the suite t
     position: static;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px;
+    grid-template-rows: 1fr;
 
 }
 
