@@ -9,32 +9,27 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: 100px repeat(10, 800px);
+}
+
+#nav-bar {
+    grid-row: 1 / 2;
+
 }
 
 #header {
-    display: grid;
-    grid-template-rows: 1fr;
+    grid-row: 2 / 3;
 }
 
 #header-img {
-    display: grid;
-    grid-template-rows: 1fr;
+    width: 100%;
    
 }
 
 /* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style element> 
 and place the #nav-bar including flexBox inside of the HTML file for the suite to pass this rule*/
 
-/*
-#nav-bar {
-    position: fixed;
-    display: flex;
-    list-style: none;
-    top: 0px;
-    width: 100%;
-}
-*/
+
 
 #about {
     background-color: green;
@@ -50,20 +45,15 @@ and place the #nav-bar including flexBox inside of the HTML file for the suite t
     background-color: green;
     /*background-color above is just a place holder*/
 }
-
+/*
 #video {
-    position: static;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-
+    grid-row: 3 / 4;
+    width: 100%;
 }
-
+*/
 iframe {
-    position: static;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-row: 3 / 4;
+    width: 100%;
 }
 
 #product-img {
