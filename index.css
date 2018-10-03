@@ -1,20 +1,18 @@
 body {
     background-color: tomato;
     font-family: 'Modern Antiqua', cursive;
-    width: 100%;
+    width: 100vw;
     margin: 0;
     padding: 0;
-
 }
 
 .wrapper {
     display: grid;
-    grid-template-rows: 100px repeat(10, 800px);
+    grid-template-rows: 100px repeat(2, 800px) 500px 150px;
 }
 
 #nav-bar {
     grid-row: 1 / 2;
-
 }
 
 #header {
@@ -23,16 +21,14 @@ body {
 
 #header-img {
     width: 100%;
-   
+    height: 100%;
 }
 
 /* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style element> 
 and place the #nav-bar including flexBox inside of the HTML file for the suite to pass this rule*/
 
-
-
 #about {
-    background-color: green;
+    background-color: purple;
     /*background-color above is just a place holder*/
 }
 
@@ -45,22 +41,26 @@ and place the #nav-bar including flexBox inside of the HTML file for the suite t
     background-color: green;
     /*background-color above is just a place holder*/
 }
-/*
-#video {
+
+.video-div {
     grid-row: 3 / 4;
-    width: 100%;
 }
-*/
+
 iframe {
-    grid-row: 3 / 4;
+    height: 100%;
     width: 100%;
 }
 
 #product-img {
-    position: static;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-row: 4 / 5;
+    margin: 0 auto;
+}
+
+.form-send {
+    padding: 5%;
+    display: flex;
+    grid-row: 5 / 6;
+    justify-content: center;
 }
 
 #form submit {
