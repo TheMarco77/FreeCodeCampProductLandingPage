@@ -28,7 +28,8 @@ body {
 and place the #nav-bar including flexBox inside of the HTML file for the suite to pass this rule*/
 
 #about {
-    background-color: purple;
+    background-color: #FFFFF0;
+    text-align: center;
     /*background-color above is just a place holder*/
 }
 
