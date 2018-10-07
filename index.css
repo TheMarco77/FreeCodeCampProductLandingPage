@@ -78,11 +78,19 @@ iframe {
     padding: 20px 20px 20px 20px;
 }
 
-@media only screen and (max-width: 1024px) {
-     body { 
+grid-template-rows: 100px 600px 100px 600px 40px 500px 40px 600px;
 
-     }
-} /* this media query is to test the CSS file index.css.
+
+@media only screen and (max-width: 944px) {
+    body {
+        width: 95%;
+        display: grid;
+        grid-template-rows: 90px 600px;
+        margin: auto;
+    }
+} 
+
+/* this media query is to test the CSS file index.css.
 
 
 /* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style tag> 
