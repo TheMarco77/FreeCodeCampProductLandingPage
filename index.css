@@ -7,7 +7,7 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 600px 100px 600px 40px 500px 40px 600px;
+    grid-template-rows: 100px 600px 110px 600px 40px 500px 40px 1fr;
 }
 
 #nav-bar {
@@ -26,15 +26,14 @@ body {
 /* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style element> 
 and place the #nav-bar including flexBox inside of the HTML file for the suite to pass this rule*/
 
-
 .about-us {
     grid-row: 3 / 4;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 20px; 
 }
 
 .video-div {
-    padding-top: 10px;
     grid-row: 4 / 5;
 }
 
@@ -58,14 +57,7 @@ iframe {
 #product-img {
     width: 100%;
 }
-/*
-.form-send {
-    grid-row: 7 / 8;
-    padding: 5%;
-    display: flex;
-    justify-content: center;
-}
-*/
+
 #form {
     grid-row: 7 / 8;
     display: flex;
@@ -75,13 +67,10 @@ iframe {
 #mission { 
     grid-row: 8 / 9;
     text-align: center;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
 }
 
-grid-template-rows: 100px 600px 100px 600px 40px 500px 40px 600px;
-
-
-@media only screen and (max-width: 944px) {
+@media only screen and (min-width: 1400px) {
     body {
         width: 95%;
         display: grid;
@@ -90,16 +79,5 @@ grid-template-rows: 100px 600px 100px 600px 40px 500px 40px 600px;
     }
 } 
 
-/* this media query is to test the CSS file index.css.
-
-
 /* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style tag> 
 and place the media query inside of the HTML file. */
-
-/*
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: #F8F8FF;
-    }
-}
-*/
