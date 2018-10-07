@@ -7,7 +7,7 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-rows: 80px 600px 13px 600px 12px 600px 8px 100px;
+    grid-template-rows: 100px 600px 100px 600px 40px 500px 40px 600px;
 }
 
 #nav-bar {
@@ -26,15 +26,15 @@ body {
 /* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style element> 
 and place the #nav-bar including flexBox inside of the HTML file for the suite to pass this rule*/
 
-#about {
-    background-color: #FFFFF0;
+
+.about-us {
     grid-row: 3 / 4;
     text-align: center;
-    padding-bottom: 10px;
-    /*background-color above is just a place holder*/
+    padding-top: 10px;
 }
 
 .video-div {
+    padding-top: 10px;
     grid-row: 4 / 5;
 }
 
@@ -43,40 +43,39 @@ iframe {
     width: 100%;
 }
 
-#buy {
+.buy-product {
     grid-row: 5 / 6;
-    background-color: #FFFFF0;
-    padding-bottom: 10px;
-    /*background-color above is just a place holder*/
+    text-align: center;
+    padding-top: 10px;
 }
 
 .img-product {
     grid-row: 6 / 7;
-    margin: 8% auto;
+    margin: auto;
     text-align: center;
 }
 
 #product-img {
     width: 100%;
 }
-
+/*
 .form-send {
+    grid-row: 7 / 8;
     padding: 5%;
     display: flex;
+    justify-content: center;
+}
+*/
+#form {
     grid-row: 7 / 8;
+    display: flex;
     justify-content: center;
 }
 
-#form submit {
-    padding-bottom: 5%;
-}
-
 #mission { 
-    background-color: #FFFFF0;
     grid-row: 8 / 9;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding: 20px 20px 20px 20px;
 }
 
 @media only screen and (max-width: 1024px) {
