@@ -24,7 +24,7 @@
 
 - [x] **User Story #11:** Within the form, there is a submit **input** with a corresponding **id="submit"**.
 
-- [x] **User Story #12:** When I click the #submit element, the email is submitted to a static page (use this mock URL:[Submit](https://www.freecodecamp.com/email-submit)) that confirms the email address was entered and that it posted successfully.
+- [x] **User Story #12:** When I click the #submit element, the email is submitted to a static page (use this mock URL:  [Submit](https://www.freecodecamp.com/email-submit)_blank) that confirms the email address was entered and that it posted successfully.
 
 - [x] **User Story #13:** The navbar should always be at the top of the viewport.
 
