@@ -23,8 +23,8 @@ body {
     height: 100%;
 }
 
-/* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style element> 
-and place the #nav-bar including flexBox inside of the HTML file for the suite to pass this rule*/
+/* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so
+I had to create a <style element> and place the #nav-bar including flexBox inside of the HTML file for the suite to pass this rule*/
 
 .about-us {
     grid-row: 3 / 4;
@@ -70,6 +70,9 @@ iframe {
     padding: 20px;
 }
 
+/* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style tag> 
+and place the media query inside of the HTML file. */
+
 @media only screen and (min-width: 1400px) {
     body {
         width: 95%;
@@ -78,6 +81,3 @@ iframe {
         margin: auto;
     }
 } 
-
-/* NOTE for HTML File. On this exercise for FCC Responsive Web Design the Test Suite does not understand CSS on a different file so I had to create a <style tag> 
-and place the media query inside of the HTML file. */
